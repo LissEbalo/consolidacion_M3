@@ -1,0 +1,28 @@
+.right-box {
+  padding-left: 20px;
+  height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/assets/img/fondo.jpg");
+}
+.chat_bubble1 {
+  padding: 20px;
+  display: flex;
+  text-align: start;
+}
+.chat_bubble2 {
+  padding: 20px;
+  display: flex;
+  text-align: end;
+  padding-left: 300px;
+}
+.avatar {
+  width: 70px;
+  border-radius: 50%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}

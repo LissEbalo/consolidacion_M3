@@ -1,0 +1,29 @@
+.usuario {
+  &__img {
+    width: 60px;
+    border-radius: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+  &__icons {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    i {
+      cursor: pointer;
+      padding: 10px 5px;
+      font-size: 20px;
+      color: $DarkViolet;
+    }
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__nombre {
+    font-size: 30px;
+  }
+}

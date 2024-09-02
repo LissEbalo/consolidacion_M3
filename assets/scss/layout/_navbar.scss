@@ -1,0 +1,23 @@
+.navbar {
+  height: 60px;
+  background-color: rgb(223, 170, 238);
+  color: $DarkViolet;
+
+  &__avatar {
+    width: 40px;
+    border-radius: 50%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.header_nav {
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.row {
+  margin-top: 60px;
+}

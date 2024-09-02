@@ -1,0 +1,26 @@
+.contacto {
+  cursor: pointer;
+  &__img {
+    width: 40px;
+    border-radius: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+  &__container {
+    text-align: center;
+    display: ruby;
+  }
+  &__ {
+    color: green;
+  }
+  &__nombre {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+}
+.texto {
+  color: $typoColorGray;
+}

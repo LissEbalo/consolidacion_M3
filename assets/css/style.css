@@ -92,6 +92,11 @@
   padding-left: 300px;
 }
 
+.enviar {
+  padding: 20px;
+  text-align: end;
+}
+
 .avatar {
   width: 70px;
   border-radius: 50%;
